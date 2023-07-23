@@ -5,6 +5,6 @@ from .models import Gig
 
 class GigList(generic.ListView):
     model = Gig
-    queryset = Gig.objects.all
+    queryset = Gig.objects.all()
     template_name = 'index.html'
     paginate_by = 6
