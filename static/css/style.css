@@ -34,6 +34,15 @@ body{
     z-index: -1;
 }
 
+/* Gig Container */
+.gig-container{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Background Gradient */
 #gradient-canvas {
     z-index: -2;
