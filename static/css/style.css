@@ -128,7 +128,14 @@ main{
     text-align: center;
 }
 
+@media  (max-width: 500px){
+    .upcoming-gigs-container{
+    height: auto
+    }
+}
+
 .upcoming-gigs-header{
+    padding: 1rem;
     height: 15%;
     display: flex;
     justify-content: center;
@@ -137,5 +144,24 @@ main{
 }
 .upcoming-gig-row{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+/* Upcoming Gig Card */
+#upcoming-gig-image{
+    height: 30vh;
+}
+
+#upcoming-gig-card{
+    height: 50%;
+    margin-bottom: 2rem;
+    padding:1rem
+}
+
+.card-title{
+    height: 32%;
+}
+
+.card-body{
+    height: 20vh;
 }
