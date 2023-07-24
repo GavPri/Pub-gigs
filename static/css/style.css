@@ -1,6 +1,6 @@
 /* Body */
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Navbar Styling */
@@ -56,13 +56,13 @@ body{
     background-color: red;
 }
 
+/* next gig styling */
 .next-gig-description{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*  card styling */
 .card-body{
     text-align: center;
 }
@@ -80,4 +80,10 @@ body{
     --gradient-color-2: #6ec3f4; 
     --gradient-color-3: #eae2ff;  
     --gradient-color-4: #b9beff;
-  }
+}
+
+.upcoming-gigs-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
