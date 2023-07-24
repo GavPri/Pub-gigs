@@ -17,7 +17,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-gavpri-pubgigs-gb5twyf9scs.ws-eu102.gitpod.io', 'localhost']
+    '8000-gavpri-pubgigs-rvhq4gicz2w.ws-eu102.gitpod.io', 'localhost']
 
 
 # Application definition
