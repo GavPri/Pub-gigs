@@ -10,5 +10,5 @@ class Gig(models.Model):
     date = models.DateField()
     featured_image = CloudinaryField('image', default='placeholder')
 
-    def __str_(self):
-        return f"{self.band} @ {self.venue}"
+    def __str__(self):
+        return self.venue
