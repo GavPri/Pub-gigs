@@ -43,6 +43,19 @@ body{
     align-items: center;
 }
 
+/* Hero Rows */
+.hero-row{
+    border: 1px solid black;
+    height: 85%;
+}
+
+/* Hero Image */
+.hero-img{
+    height: 50%;
+    width: 120%;
+    background-color: red;
+}
+
 /* Background Gradient */
 #gradient-canvas {
     z-index: -2;
