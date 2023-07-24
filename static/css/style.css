@@ -23,48 +23,78 @@ body{
 .custom-toggler.navbar-toggler {
   border-color: white;
 }
-/* Styling For Next Gig */
-.next-gig{
-    /* Dimensions */
-    height: 100vh;
+
+#hero-container {
+    height: 95vh;
     width: 100vw;
-    /* Positioning */
-    position: absolute;
-    top: 0;
-    z-index: -1;
+    z-index: 1;
 }
 
-/* Gig Container */
-.gig-container{
+.hero-row {
     height: 100%;
-    width: 90%;
+}
+
+.hero-image-container {
+    height: 80%;
+    width: 80%;
+    border: 1px solid dashed;
+    border-radius: 15px;
+    background: url("images/pexels-martin-lopez-2649113.jpg") no-repeat center center;
+    background-size: contain;
+    z-index: 1;
+}
+
+.hero-image,
+.hero-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Hero Rows */
-.hero-row{
-    border: 1px solid black;
-    height: 85%;
+.hero-text-container {
+    height: 57%;
+    width: 80%;
+    border-radius: 15px;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #d9d1d1;
 }
 
-/* Hero Image */
-.hero-img{
-    height: 50%;
-    width: 120%;
-    background-color: red;
-}
-
-/* next gig styling */
-.next-gig-description{
+.next-gig-heading {
+    height: 20%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card-body{
+.next-gig-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+/* Upcoming Gigs */
+.upcoming-gigs-banner {
+    height: 20%;
+    width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gigs-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 75%;
 }
 
 /* Background Gradient */
@@ -81,7 +111,7 @@ body{
     --gradient-color-3: #eae2ff;  
     --gradient-color-4: #b9beff;
 }
-
+/* Upcoming gigs section */
 .upcoming-gigs-container{
     height: 100vh;
     width: 100vw;

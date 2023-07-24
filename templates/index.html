@@ -1,24 +1,48 @@
 {% extends "base.html" %}
 
 {% block content %}
-<main class="next-gig">
+<main>
     <!-- Next Gig -->
-    <div class="container gig-container">
+    <!-- <div class="container" id="gig-container">
         <div class="row hero-row">
-          <div class="hero-img">
-            
-          </div>
-          <div class="col-sm next-gig-description">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                    content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+            <div class="col-lg-6 col-md-12 hero-img ">
+
+            </div>
+            <div class="next-gig-description col-lg-6 col-md-12">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
                 </div>
-  </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="hero-container" class="container text-center">
+        <div class="hero-row row">
+          <div class="hero-image col-lg-6 col-md-12">
+            <div class="hero-image-container">
+              <div class="musician-img"></div>
+            </div>
+          </div>
+          <div class="hero-text col-lg-6 col-md-12">
+            <div class="hero-text-container">
+              <div class="next-gig-heading"><h2>Him @ This Pub</h2></div>
+              <div class="next-gig-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium, ullam.
+              </div>
+              <div class="hero-button">
+                <button type="button" class="btn btn-success">
+                  Reserve Your Ticket
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
