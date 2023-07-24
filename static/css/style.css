@@ -1,0 +1,10 @@
+/* Styling For Next Gig */
+.next-gig{
+    /* Dimensions */
+    height: 100vh;
+    width: 100vw;
+    /* Positioning */
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
