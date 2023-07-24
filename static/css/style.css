@@ -4,7 +4,7 @@ body{
 }
 
 /* Navbar Styling */
-.navbar-brand, .nav-link, .navbar-nav{
+.navbar-brand, .nav-link, .navbar-nav, h5{
     color: white;
     font-family: Roboto, sans-serif;
 }
@@ -54,6 +54,11 @@ body{
     height: 50%;
     width: 120%;
     background-color: red;
+}
+
+/*  card styling */
+.card-body{
+    text-align: center;
 }
 
 /* Background Gradient */
