@@ -56,6 +56,12 @@ body{
     background-color: red;
 }
 
+.next-gig-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*  card styling */
 .card-body{
     text-align: center;
