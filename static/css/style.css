@@ -96,3 +96,7 @@ body{
     align-items: center;
     letter-spacing: 0.25rem
 }
+.upcoming-gig-row{
+    display: flex;
+    justify-content: center;
+}
