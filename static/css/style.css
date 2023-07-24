@@ -3,6 +3,16 @@ body{
     overflow-x: hidden;
 }
 
+/* Scroll Effect */
+main{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+#hero-container, .upcoming-gigs-container{
+    scroll-snap-align: start;
+}
 /* Navbar Styling */
 .navbar-brand, .nav-link, .navbar-nav, h5, h2{
     color: white;
