@@ -24,7 +24,21 @@
       </div>
     <!-- Next Gig End -->
     <!-- Upcoming Gigs Section -->
-    <div class="upcoming-gigs-container"></div>
+    <div class="upcoming-gigs-container">
+        <div class="upcoming-gigs-header"><h2>Upcoming Gigs</h2></div>
+        <div class="row">
+        {% for gig in gig_list %}
+        <div class="card" style="width: 18rem;">
+            <img src="{{ gig.image }}" class="card-img-top" alt="Gig Image">
+            <div class="card-body">
+                <h5 class="card-title">{{ gig.band }} @ {{ gig.venue }}</h5>
+                <p class="card-text">{{ gig.date }}, {{ gig.time }}</p>
+                <a href="#" class="btn btn-primary">Reserve Tickets</a>
+            </div>
+        </div>
+        </div>
+        {% endfor %}
+    </div>
     <canvas id="gradient-canvas" data-js-darken-top data-transition-in ></canvas>
     </main>
 <script>/*

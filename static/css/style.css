@@ -4,7 +4,7 @@ body{
 }
 
 /* Navbar Styling */
-.navbar-brand, .nav-link, .navbar-nav, h5{
+.navbar-brand, .nav-link, .navbar-nav, h5, h2{
     color: white;
     font-family: Roboto, sans-serif;
 }
@@ -86,4 +86,13 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: red;
+    text-align: center;
+}
+
+.upcoming-gigs-header{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.25rem
 }
