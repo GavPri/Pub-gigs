@@ -10,12 +10,6 @@ class Gig(models.Model):
     date = models.DateField()
     featured_image = CloudinaryField('image', default='placeholder')
 
-
     def __str__(self):
         return self.venue
 
-
-class GuestList(models.Model):
-    name = models.CharField(max_length=50)
-    email = models.EmailField(max_length=200)
-    gig = models.ForeignKey(Gig, on_delete=models.CASCADE)
