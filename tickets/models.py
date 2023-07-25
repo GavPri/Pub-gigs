@@ -9,6 +9,7 @@ class Gig(models.Model):
     venue = models.CharField(max_length=200)
     date = models.DateField()
     featured_image = CloudinaryField('image', default='placeholder')
+    bookings = models.PositiveIntegerField(default=0)
 
     def __str__(self):
         return self.venue
