@@ -3,4 +3,3 @@ from .models import Gig, Reservation
 
 # Register your models here.
 admin.site.register(Gig)
-admin.site.register(Reservation)
