@@ -11,7 +11,3 @@ class GigList(generic.ListView):
     paginate_by = 6
 
 
-class ReservationList(generic.FormView):
-    form_class = ReservationForm
-    model = Reservation
-    template_name = 'reservations.html'
