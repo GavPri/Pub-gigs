@@ -3,3 +3,5 @@ from .models import Gig
 
 # Register your models here.
 admin.site.register(Gig)
+admin.site.register(GuestList)
+
