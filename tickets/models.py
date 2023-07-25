@@ -14,3 +14,12 @@ class Gig(models.Model):
     def __str__(self):
         return self.venue
 
+
+class Booking(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    age = models.PositiveIntegerField()
+    tickets = models.PositiveIntegerField()
+
+    def __str__(self):
+        return f"Booking by {self.name}"
